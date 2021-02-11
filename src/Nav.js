@@ -4,11 +4,11 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <div className="nav">
-      <NavLink className="navlink" to="/">
+      <a href="/" className="navlink">
         <p>
           unit<span>ss.</span>
         </p>
-      </NavLink>
+      </a>
     </div>
   );
 };
